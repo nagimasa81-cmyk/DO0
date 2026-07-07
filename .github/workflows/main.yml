@@ -25,7 +25,7 @@ jobs:
 
       - name: Run Build BAT
         shell: cmd
-        run: Build_WaterSystemAnalyzer_Ver42.bat
+        run: build_exe.bat
 
       - name: Verify build output
         shell: cmd
